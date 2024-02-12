@@ -4,3 +4,12 @@ INFO 2024-02-07 21:53:31,630 basehttp 27677 6205386752 "GET / HTTP/1.1" 200 390
 INFO 2024-02-07 21:53:37,883 basehttp 27677 6205386752 "GET /about HTTP/1.1" 301 0
 INFO 2024-02-07 21:53:37,889 views 27677 6205386752 Открыта страница обо мне
 INFO 2024-02-07 21:53:37,890 basehttp 27677 6205386752 "GET /about/ HTTP/1.1" 200 375
+INFO 2024-02-11 23:00:36,233 autoreload 11808 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-11 23:00:39,469 views 11808 6133592064 Открыта главная страница
+INFO 2024-02-11 23:00:39,469 basehttp 11808 6133592064 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-11 23:00:40,001 log 11808 6150418432 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-02-11 23:00:40,002 basehttp 11808 6150418432 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2504
+WARNING 2024-02-11 23:00:40,017 log 11808 6150418432 Not Found: /apple-touch-icon.png
+WARNING 2024-02-11 23:00:40,017 basehttp 11808 6150418432 "GET /apple-touch-icon.png HTTP/1.1" 404 2468
+INFO 2024-02-11 23:01:57,437 autoreload 11920 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-11 23:03:18,966 autoreload 12021 8627559936 Watching for file changes with StatReloader

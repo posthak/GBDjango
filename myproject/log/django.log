@@ -13,3 +13,886 @@ WARNING 2024-02-11 23:00:40,017 log 11808 6150418432 Not Found: /apple-touch-ico
 WARNING 2024-02-11 23:00:40,017 basehttp 11808 6150418432 "GET /apple-touch-icon.png HTTP/1.1" 404 2468
 INFO 2024-02-11 23:01:57,437 autoreload 11920 8627559936 Watching for file changes with StatReloader
 INFO 2024-02-11 23:03:18,966 autoreload 12021 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-13 20:50:34,684 autoreload 50530 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-13 20:50:40,247 views 50530 6155644928 Открыта главная страница
+INFO 2024-02-13 20:50:40,247 basehttp 50530 6155644928 "GET / HTTP/1.1" 200 390
+INFO 2024-02-13 20:54:01,318 autoreload 50769 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-13 20:54:04,218 views 50769 6170193920 Открыта главная страница
+INFO 2024-02-13 20:54:04,220 basehttp 50769 6170193920 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-13 20:54:15,664 log 50769 6170193920 Not Found: /hello
+WARNING 2024-02-13 20:54:15,665 basehttp 50769 6170193920 "GET /hello HTTP/1.1" 404 2528
+WARNING 2024-02-13 20:54:27,114 log 50769 6170193920 Not Found: /HelloView
+WARNING 2024-02-13 20:54:27,114 basehttp 50769 6170193920 "GET /HelloView HTTP/1.1" 404 2540
+WARNING 2024-02-13 20:55:10,838 log 50769 6170193920 Not Found: /les3/Hello
+WARNING 2024-02-13 20:55:10,839 basehttp 50769 6170193920 "GET /les3/Hello HTTP/1.1" 404 2784
+WARNING 2024-02-13 20:55:14,730 log 50769 6170193920 Not Found: /les3/Hello2
+WARNING 2024-02-13 20:55:14,731 basehttp 50769 6170193920 "GET /les3/Hello2 HTTP/1.1" 404 2787
+INFO 2024-02-13 20:55:21,199 basehttp 50769 6170193920 "GET /les3/hello2 HTTP/1.1" 301 0
+INFO 2024-02-13 20:55:21,215 basehttp 50769 6170193920 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-02-13 20:55:26,840 basehttp 50769 6170193920 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-02-13 20:55:26,847 basehttp 50769 6170193920 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-02-14 21:58:39,621 autoreload 70242 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 21:58:55,959 autoreload 70242 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 21:58:56,263 autoreload 70264 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 21:59:09,543 autoreload 70264 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 21:59:09,810 autoreload 70283 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 21:59:17,045 autoreload 70283 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 21:59:17,384 autoreload 70299 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 21:59:23,839 autoreload 70318 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:01:18,637 autoreload 70318 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:01:19,099 autoreload 70442 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:01:29,271 autoreload 70442 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:01:29,546 autoreload 70461 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:03:00,110 autoreload 70597 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:03:02,297 views 70597 6190854144 Открыта главная страница
+INFO 2024-02-14 22:03:02,298 basehttp 70597 6190854144 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-14 22:03:02,462 log 70597 6190854144 Not Found: /favicon.ico
+WARNING 2024-02-14 22:03:02,462 basehttp 70597 6190854144 "GET /favicon.ico HTTP/1.1" 404 2546
+WARNING 2024-02-14 22:03:39,339 log 70597 6207680512 Not Found: /les3/posts/
+WARNING 2024-02-14 22:03:39,340 basehttp 70597 6207680512 "GET /les3/posts/ HTTP/1.1" 404 3423
+INFO 2024-02-14 22:03:48,378 basehttp 70597 6207680512 "GET /les3/posts/2006/3/ HTTP/1.1" 200 21
+INFO 2024-02-14 22:04:07,938 basehttp 70597 6207680512 "GET /les3/posts/2006/6/python HTTP/1.1" 301 0
+INFO 2024-02-14 22:04:07,948 basehttp 70597 6190854144 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 366
+INFO 2024-02-14 22:05:08,681 autoreload 70597 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:05:08,957 autoreload 70752 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:05:13,005 basehttp 70752 6197063680 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 858
+INFO 2024-02-14 22:05:29,491 autoreload 70752 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:05:29,731 autoreload 70786 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:05:32,440 basehttp 70786 6198423552 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 366
+INFO 2024-02-14 22:07:21,169 autoreload 70786 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:07:21,429 autoreload 70919 8627559936 Watching for file changes with StatReloader
+ERROR 2024-02-14 22:07:25,473 log 70919 6204518400 Internal Server Error: /les3/posts/2006/6/python/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 34, in post_detail
+    return JsonResponse(post, json_dumps_params={'UTF-8': False})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/http/response.py", line 733, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 234, in dumps
+    return cls(
+           ^^^^
+TypeError: JSONEncoder.__init__() got an unexpected keyword argument 'UTF-8'
+ERROR 2024-02-14 22:07:25,474 basehttp 70919 6204518400 "GET /les3/posts/2006/6/python/ HTTP/1.1" 500 71587
+INFO 2024-02-14 22:07:35,810 autoreload 70919 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:07:36,309 autoreload 70973 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:07:37,719 basehttp 70973 6134296576 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 366
+INFO 2024-02-14 22:13:13,277 autoreload 70973 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:13:13,603 autoreload 71392 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:13:45,173 autoreload 71392 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:13:45,488 autoreload 71432 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:13:58,788 autoreload 71432 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:13:59,031 autoreload 71455 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:14:12,345 autoreload 71455 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:14:12,570 autoreload 71482 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:14:30,630 basehttp 71482 6137737216 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 366
+INFO 2024-02-14 22:14:32,024 basehttp 71482 6137737216 "GET /les3/posts/2006/6/python/ HTTP/1.1" 200 366
+INFO 2024-02-14 22:17:50,083 autoreload 71482 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-14 22:17:50,590 autoreload 71712 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:18:13,257 autoreload 71749 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:18:28,340 basehttp 71749 6204223488 "GET /les3/ HTTP/1.1" 200 178
+INFO 2024-02-14 22:21:03,917 autoreload 71749 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:21:04,310 autoreload 71970 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:19,663 autoreload 71970 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-14 22:21:19,979 autoreload 71995 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-14 22:21:47,550 autoreload 71995 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-14 22:21:47,906 autoreload 72032 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 12:37:29,056 autoreload 73825 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 12:37:30,643 views 73825 6204010496 Открыта главная страница
+INFO 2024-02-15 12:37:30,646 basehttp 73825 6204010496 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-15 12:37:38,109 log 73825 6204010496 Not Found: /les2/if
+WARNING 2024-02-15 12:37:38,109 basehttp 73825 6204010496 "GET /les2/if HTTP/1.1" 404 2534
+WARNING 2024-02-15 12:38:04,452 log 73825 6204010496 Not Found: /les2/if/
+WARNING 2024-02-15 12:38:04,455 basehttp 73825 6204010496 "GET /les2/if/ HTTP/1.1" 404 2537
+ERROR 2024-02-15 12:38:09,953 log 73825 6204010496 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-02-15 12:38:09,954 basehttp 73825 6204010496 "GET /les3/if/ HTTP/1.1" 500 74792
+INFO 2024-02-15 12:38:38,798 autoreload 73825 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 12:38:39,303 autoreload 73912 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 12:42:35,669 autoreload 74181 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 12:42:37,585 views 74181 6126153728 Открыта главная страница
+INFO 2024-02-15 12:42:37,591 basehttp 74181 6126153728 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 12:42:46,327 basehttp 74181 6126153728 "GET /les3 HTTP/1.1" 301 0
+INFO 2024-02-15 12:42:46,339 basehttp 74181 6126153728 "GET /les3/ HTTP/1.1" 200 178
+ERROR 2024-02-15 12:42:50,452 log 74181 6126153728 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-02-15 12:42:50,454 basehttp 74181 6126153728 "GET /les3/if/ HTTP/1.1" 500 74792
+WARNING 2024-02-15 12:42:58,912 log 74181 6126153728 Not Found: /les3/If/
+WARNING 2024-02-15 12:42:58,912 basehttp 74181 6126153728 "GET /les3/If/ HTTP/1.1" 404 3752
+WARNING 2024-02-15 12:43:17,212 log 74181 6126153728 Not Found: /les3/If/
+WARNING 2024-02-15 12:43:17,212 basehttp 74181 6126153728 "GET /les3/If/ HTTP/1.1" 404 3752
+ERROR 2024-02-15 12:43:24,062 log 74181 6126153728 Internal Server Error: /les3/if/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_if.html
+ERROR 2024-02-15 12:43:24,063 basehttp 74181 6126153728 "GET /les3/if/ HTTP/1.1" 500 74792
+INFO 2024-02-15 12:48:17,410 autoreload 74568 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 12:48:25,572 views 74568 6194409472 Открыта главная страница
+INFO 2024-02-15 12:48:25,574 basehttp 74568 6194409472 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 12:48:34,355 basehttp 74568 6194409472 "GET /les3/if HTTP/1.1" 301 0
+INFO 2024-02-15 12:48:34,364 basehttp 74568 6194409472 "GET /les3/if/ HTTP/1.1" 200 355
+INFO 2024-02-15 14:32:59,457 autoreload 74568 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 14:32:59,909 autoreload 76565 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:33:23,309 autoreload 76565 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 14:33:23,730 autoreload 76604 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:33:43,174 autoreload 76604 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 14:33:43,412 autoreload 76630 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:34:13,983 autoreload 76630 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 14:34:14,261 autoreload 76680 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:38:30,486 autoreload 76680 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-15 14:38:30,788 autoreload 76978 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:41:59,065 autoreload 77205 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:42:01,333 views 77205 6191001600 Открыта главная страница
+INFO 2024-02-15 14:42:01,335 basehttp 77205 6191001600 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 14:42:08,007 views 77205 6191001600 Открыта главная страница
+INFO 2024-02-15 14:42:08,008 basehttp 77205 6191001600 "GET / HTTP/1.1" 200 390
+ERROR 2024-02-15 14:43:31,138 log 77205 6191001600 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 58, in view_for
+    return render(request, 'myapp3/templ_for.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for.html
+ERROR 2024-02-15 14:43:31,140 basehttp 77205 6191001600 "GET /les3/for/ HTTP/1.1" 500 77808
+ERROR 2024-02-15 14:44:09,329 log 77205 6191001600 Internal Server Error: /les3/for/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 58, in view_for
+    return render(request, 'myapp3/templ_for.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/templ_for.html
+ERROR 2024-02-15 14:44:09,330 basehttp 77205 6191001600 "GET /les3/for/ HTTP/1.1" 500 77808
+INFO 2024-02-15 14:47:05,559 autoreload 77585 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:47:06,944 views 77585 6132166656 Открыта главная страница
+INFO 2024-02-15 14:47:06,945 basehttp 77585 6132166656 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-15 14:47:18,251 log 77585 6132166656 Not Found: /leas3/for/
+WARNING 2024-02-15 14:47:18,252 basehttp 77585 6132166656 "GET /leas3/for/ HTTP/1.1" 404 2543
+INFO 2024-02-15 14:47:26,339 basehttp 77585 6132166656 "GET /les3/for/ HTTP/1.1" 200 874
+INFO 2024-02-15 14:47:33,210 views 77585 6132166656 Открыта главная страница
+INFO 2024-02-15 14:47:33,210 basehttp 77585 6132166656 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 14:51:58,420 autoreload 77585 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:51:58,874 autoreload 77924 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:52:06,106 autoreload 77924 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:52:06,494 autoreload 77939 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:52:11,741 autoreload 77939 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:52:12,189 autoreload 77952 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:52:30,699 autoreload 77952 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:52:31,022 autoreload 77980 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:52:42,230 autoreload 77980 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:52:42,672 autoreload 77994 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:53:00,011 autoreload 77994 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:53:00,471 autoreload 78016 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:53:23,898 autoreload 78016 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:53:24,334 autoreload 78045 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:57:25,666 autoreload 78045 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 14:57:25,925 autoreload 78301 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 14:58:54,151 autoreload 78412 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:06:15,754 autoreload 78930 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:09:14,248 autoreload 78930 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:09:14,558 autoreload 79142 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:09:31,934 autoreload 79142 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:09:32,434 autoreload 79167 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:09:38,614 autoreload 79167 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 15:09:38,877 autoreload 79183 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:09:57,302 autoreload 79183 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 15:09:57,764 autoreload 79209 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:14:13,160 autoreload 79209 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 15:14:13,420 autoreload 79489 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:15:18,604 autoreload 79489 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:15:18,950 autoreload 79598 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:16:17,029 autoreload 79598 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:16:17,300 autoreload 79667 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:16:44,883 autoreload 79711 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:17:51,189 autoreload 79711 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 15:17:51,771 autoreload 79806 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:17:54,900 autoreload 79806 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 15:17:55,201 autoreload 79815 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:18:34,989 autoreload 79815 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 15:18:35,452 autoreload 79863 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:18:55,845 autoreload 79863 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 15:18:56,313 autoreload 79896 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:19:15,710 autoreload 79896 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 15:19:15,973 autoreload 79925 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:19:26,634 views 79925 6161887232 Открыта главная страница
+INFO 2024-02-15 15:19:26,635 basehttp 79925 6161887232 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:19:37,087 autoreload 79973 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:19:41,163 views 79973 6168883200 Открыта главная страница
+INFO 2024-02-15 15:19:41,164 basehttp 79973 6168883200 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:19:49,535 basehttp 79973 6168883200 "GET /les3/index HTTP/1.1" 301 0
+INFO 2024-02-15 15:19:49,545 basehttp 79973 6168883200 "GET /les3/index/ HTTP/1.1" 200 215
+INFO 2024-02-15 15:19:56,244 basehttp 79973 6168883200 "GET /les3/about/ HTTP/1.1" 200 219
+INFO 2024-02-15 15:21:18,194 autoreload 79973 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:21:18,458 autoreload 80088 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:29:25,544 autoreload 80611 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:30:59,274 autoreload 80611 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:30:59,524 autoreload 80711 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:31:02,129 autoreload 80728 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:31:03,592 views 80728 6156660736 Открыта главная страница
+INFO 2024-02-15 15:31:03,594 basehttp 80728 6156660736 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-15 15:31:11,608 log 80728 6156660736 Not Found: /дуы3/штвуч
+WARNING 2024-02-15 15:31:11,608 basehttp 80728 6156660736 "GET /%D0%B4%D1%83%D1%8B3/%D1%88%D1%82%D0%B2%D1%83%D1%87 HTTP/1.1" 404 2599
+INFO 2024-02-15 15:31:20,768 basehttp 80728 6156660736 "GET /les3/index HTTP/1.1" 301 0
+INFO 2024-02-15 15:31:20,782 basehttp 80728 6156660736 "GET /les3/index/ HTTP/1.1" 200 275
+INFO 2024-02-15 15:33:25,396 autoreload 80728 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:33:25,928 autoreload 80883 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:38:01,570 autoreload 80883 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:38:02,012 autoreload 81258 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:38:22,437 autoreload 81258 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:38:22,988 autoreload 81293 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:41:19,819 autoreload 81293 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:41:20,093 autoreload 81539 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:41:22,488 autoreload 81549 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:41:37,809 autoreload 81549 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:41:38,055 autoreload 81573 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:45:15,685 autoreload 81813 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:48:31,703 autoreload 81813 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:48:32,001 autoreload 82021 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:49:51,443 autoreload 82021 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:49:51,845 autoreload 82126 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:50:18,371 autoreload 82126 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:50:18,609 autoreload 82173 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:51:40,090 autoreload 82173 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:51:40,366 autoreload 82269 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:51:43,650 views 82269 6166343680 Открыта главная страница
+INFO 2024-02-15 15:51:43,652 basehttp 82269 6166343680 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:51:47,167 views 82269 6166343680 Открыта главная страница
+INFO 2024-02-15 15:51:47,168 basehttp 82269 6166343680 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:52:07,987 autoreload 82269 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/urls.py changed, reloading.
+INFO 2024-02-15 15:52:08,356 autoreload 82313 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:52:35,953 autoreload 82313 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 15:52:36,240 autoreload 82350 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:52:37,792 views 82350 6134165504 Открыта главная страница
+INFO 2024-02-15 15:52:37,796 basehttp 82350 6134165504 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:52:44,337 views 82350 6134165504 Открыта главная страница
+INFO 2024-02-15 15:52:44,339 basehttp 82350 6134165504 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:52:58,178 views 82350 6134165504 Открыта главная страница
+INFO 2024-02-15 15:52:58,181 basehttp 82350 6134165504 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:53:01,005 views 82350 6134165504 Открыта главная страница
+INFO 2024-02-15 15:53:01,005 basehttp 82350 6134165504 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:53:05,389 autoreload 82394 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:53:06,405 views 82394 6203092992 Открыта главная страница
+INFO 2024-02-15 15:53:06,405 basehttp 82394 6203092992 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:54:09,619 autoreload 82812 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:54:12,337 views 82812 6128234496 Открыта главная страница
+INFO 2024-02-15 15:54:12,339 basehttp 82812 6128234496 "GET / HTTP/1.1" 200 390
+WARNING 2024-02-15 15:54:19,406 log 82812 6128234496 Not Found: /index
+WARNING 2024-02-15 15:54:19,407 basehttp 82812 6128234496 "GET /index HTTP/1.1" 404 2628
+INFO 2024-02-15 15:54:31,118 basehttp 82812 6128234496 "GET /les3/index HTTP/1.1" 301 0
+ERROR 2024-02-15 15:54:31,154 log 82812 6128234496 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 61, in index
+    return render(request, "myapp3/index1.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index1.html
+ERROR 2024-02-15 15:54:31,155 basehttp 82812 6128234496 "GET /les3/index/ HTTP/1.1" 500 75601
+INFO 2024-02-15 15:54:38,707 basehttp 82812 6128234496 "GET /les3/ HTTP/1.1" 200 178
+INFO 2024-02-15 15:54:44,472 basehttp 82812 6128234496 "GET /les3/about HTTP/1.1" 301 0
+INFO 2024-02-15 15:54:44,490 basehttp 82812 6128234496 "GET /les3/about/ HTTP/1.1" 200 279
+INFO 2024-02-15 15:54:52,127 basehttp 82812 6128234496 "GET /les3/index HTTP/1.1" 301 0
+ERROR 2024-02-15 15:54:52,161 log 82812 6128234496 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 61, in index
+    return render(request, "myapp3/index1.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp3/index1.html
+ERROR 2024-02-15 15:54:52,162 basehttp 82812 6128234496 "GET /les3/index/ HTTP/1.1" 500 75601
+INFO 2024-02-15 15:55:25,452 autoreload 82812 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 15:55:25,711 autoreload 82906 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:55:29,721 basehttp 82906 6198734848 "GET /les3/index/ HTTP/1.1" 200 275
+INFO 2024-02-15 15:55:34,211 views 82906 6198734848 Открыта главная страница
+INFO 2024-02-15 15:55:34,211 basehttp 82906 6198734848 "GET / HTTP/1.1" 200 390
+INFO 2024-02-15 15:57:13,206 autoreload 83044 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 15:57:14,909 basehttp 83044 6168670208 "GET / HTTP/1.1" 200 275
+INFO 2024-02-15 16:59:35,988 autoreload 87454 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 16:59:59,441 autoreload 87489 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 17:00:05,265 basehttp 87489 6135984128 "GET / HTTP/1.1" 200 275
+INFO 2024-02-15 21:13:26,482 autoreload 5417 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:13:29,764 log 5417 6126989312 Not Found: /
+WARNING 2024-02-15 21:13:29,764 basehttp 5417 6126989312 "GET / HTTP/1.1" 404 2425
+INFO 2024-02-15 21:13:53,523 basehttp 5417 6126989312 "GET /orders HTTP/1.1" 301 0
+WARNING 2024-02-15 21:13:53,531 base 5417 6126989312 Method Not Allowed (GET): /orders/
+WARNING 2024-02-15 21:13:53,532 log 5417 6126989312 Method Not Allowed: /orders/
+WARNING 2024-02-15 21:13:53,532 basehttp 5417 6126989312 "GET /orders/ HTTP/1.1" 405 0
+INFO 2024-02-15 21:16:11,591 autoreload 5417 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:16:11,858 autoreload 5602 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:16:14,522 log 5602 6134001664 Not Found: /
+WARNING 2024-02-15 21:16:14,523 basehttp 5602 6134001664 "GET / HTTP/1.1" 404 2425
+INFO 2024-02-15 21:16:21,168 basehttp 5602 6134001664 "GET /orders HTTP/1.1" 301 0
+INFO 2024-02-15 21:16:21,187 basehttp 5602 6134001664 "GET /orders/ HTTP/1.1" 200 957
+INFO 2024-02-15 21:17:08,145 autoreload 5602 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:17:08,778 autoreload 5667 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:17:11,052 basehttp 5667 6196916224 "GET / HTTP/1.1" 200 957
+INFO 2024-02-15 21:17:25,299 autoreload 5667 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:17:25,548 autoreload 5692 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:17:27,411 basehttp 5692 6135115776 "GET /products HTTP/1.1" 301 0
+ERROR 2024-02-15 21:17:27,449 log 5692 6135115776 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html
+ERROR 2024-02-15 21:17:27,451 basehttp 5692 6135115776 "GET /products/ HTTP/1.1" 500 75250
+INFO 2024-02-15 21:18:26,734 autoreload 5692 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:18:27,357 autoreload 5764 8627559936 Watching for file changes with StatReloader
+ERROR 2024-02-15 21:18:28,143 log 5764 6189740032 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html
+ERROR 2024-02-15 21:18:28,144 basehttp 5764 6189740032 "GET /products/ HTTP/1.1" 500 75250
+WARNING 2024-02-15 21:18:38,574 log 5764 6189740032 Not Found: /
+WARNING 2024-02-15 21:18:38,574 basehttp 5764 6189740032 "GET / HTTP/1.1" 404 2418
+WARNING 2024-02-15 21:18:41,819 log 5764 6189740032 Not Found: /
+WARNING 2024-02-15 21:18:41,819 basehttp 5764 6189740032 "GET / HTTP/1.1" 404 2418
+INFO 2024-02-15 21:18:53,969 autoreload 5764 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:18:54,358 autoreload 5804 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:18:55,688 log 5804 6134902784 Not Found: /
+WARNING 2024-02-15 21:18:55,689 basehttp 5804 6134902784 "GET / HTTP/1.1" 404 2412
+INFO 2024-02-15 21:19:20,986 autoreload 5804 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:19:21,409 autoreload 5844 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:19:22,249 log 5844 6189068288 Not Found: /
+WARNING 2024-02-15 21:19:22,250 basehttp 5844 6189068288 "GET / HTTP/1.1" 404 2412
+WARNING 2024-02-15 21:19:28,450 log 5844 6189068288 Not Found: /
+WARNING 2024-02-15 21:19:28,450 basehttp 5844 6189068288 "GET / HTTP/1.1" 404 2412
+WARNING 2024-02-15 21:19:35,563 log 5844 6189068288 Not Found: /orders
+WARNING 2024-02-15 21:19:35,563 basehttp 5844 6189068288 "GET /orders HTTP/1.1" 404 2448
+INFO 2024-02-15 21:19:52,243 autoreload 5844 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:19:54,684 autoreload 5890 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:19:56,881 log 5890 6157398016 Not Found: /
+WARNING 2024-02-15 21:19:56,882 basehttp 5890 6157398016 "GET / HTTP/1.1" 404 2425
+INFO 2024-02-15 21:20:03,856 basehttp 5890 6157398016 "GET /orders HTTP/1.1" 301 0
+INFO 2024-02-15 21:20:03,878 basehttp 5890 6157398016 "GET /orders/ HTTP/1.1" 200 957
+INFO 2024-02-15 21:20:14,155 basehttp 5890 6157398016 "GET /orders/products HTTP/1.1" 301 0
+ERROR 2024-02-15 21:20:14,183 log 5890 6157398016 Internal Server Error: /orders/products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html
+ERROR 2024-02-15 21:20:14,185 basehttp 5890 6157398016 "GET /orders/products/ HTTP/1.1" 500 75313
+INFO 2024-02-15 21:24:01,612 autoreload 5890 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:24:02,029 autoreload 6173 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:24:05,199 log 6173 6136049664 Not Found: /
+WARNING 2024-02-15 21:24:05,199 basehttp 6173 6136049664 "GET / HTTP/1.1" 404 2425
+INFO 2024-02-15 21:24:14,340 basehttp 6173 6136049664 "GET /orders HTTP/1.1" 301 0
+INFO 2024-02-15 21:24:14,370 basehttp 6173 6136049664 "GET /orders/ HTTP/1.1" 200 957
+INFO 2024-02-15 21:24:20,262 basehttp 6173 6136049664 "GET /orders/products HTTP/1.1" 301 0
+ERROR 2024-02-15 21:24:20,288 log 6173 6136049664 Internal Server Error: /orders/products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html, myapp3/product_list.html
+ERROR 2024-02-15 21:24:20,289 basehttp 6173 6136049664 "GET /orders/products/ HTTP/1.1" 500 77522
+INFO 2024-02-15 21:26:03,538 autoreload 6173 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:26:03,870 autoreload 6357 8627559936 Watching for file changes with StatReloader
+WARNING 2024-02-15 21:26:07,626 log 6357 6169178112 Not Found: /
+WARNING 2024-02-15 21:26:07,627 basehttp 6357 6169178112 "GET / HTTP/1.1" 404 2428
+INFO 2024-02-15 21:26:20,163 basehttp 6357 6169178112 "GET /order_product_list HTTP/1.1" 301 0
+ERROR 2024-02-15 21:26:20,202 log 6357 6169178112 Internal Server Error: /order_product_list/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html, myapp3/product_list.html
+ERROR 2024-02-15 21:26:20,203 basehttp 6357 6169178112 "GET /order_product_list/ HTTP/1.1" 500 77549
+INFO 2024-02-15 21:30:05,262 autoreload 6357 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:30:05,537 autoreload 6618 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:30:08,168 basehttp 6618 6159069184 "GET / HTTP/1.1" 200 957
+ERROR 2024-02-15 21:30:24,794 log 6618 6159069184 Internal Server Error: /order_product_list/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html, myapp3/product_list.html
+ERROR 2024-02-15 21:30:24,795 basehttp 6618 6159069184 "GET /order_product_list/ HTTP/1.1" 500 77549
+INFO 2024-02-15 21:34:10,962 autoreload 6618 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:34:11,619 autoreload 6914 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:35:55,384 autoreload 6914 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:35:55,638 autoreload 7055 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:36:25,179 autoreload 7055 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:36:25,690 autoreload 7102 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:37:00,389 autoreload 7102 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:37:00,653 autoreload 7173 8627559936 Watching for file changes with StatReloader
+ERROR 2024-02-15 21:37:03,355 log 7173 6135918592 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py", line 10, in index
+    return render(request, 'index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-02-15 21:37:03,356 basehttp 7173 6135918592 "GET / HTTP/1.1" 500 75212
+INFO 2024-02-15 21:38:47,606 autoreload 7173 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:38:48,017 autoreload 7298 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:39:23,844 basehttp 7298 6171701248 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:39:31,662 basehttp 7298 6171701248 "GET /orders HTTP/1.1" 200 978
+ERROR 2024-02-15 21:39:40,323 log 7298 6171701248 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html, myapp3/product_list.html
+ERROR 2024-02-15 21:39:40,325 basehttp 7298 6171701248 "GET /products/ HTTP/1.1" 500 77459
+INFO 2024-02-15 21:42:32,218 autoreload 7298 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:42:32,505 autoreload 7545 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:42:36,916 basehttp 7545 6202142720 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:42:43,974 basehttp 7545 6202142720 "GET /orders HTTP/1.1" 200 978
+INFO 2024-02-15 21:42:59,674 basehttp 7545 6202142720 "GET /products HTTP/1.1" 301 0
+ERROR 2024-02-15 21:42:59,700 log 7545 6202142720 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: order_product_list.html, myapp3/product_list.html
+ERROR 2024-02-15 21:42:59,701 basehttp 7545 6202142720 "GET /products/ HTTP/1.1" 500 77459
+INFO 2024-02-15 21:44:56,331 autoreload 7545 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:44:56,602 autoreload 7700 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:44:58,214 basehttp 7700 6166360064 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:45:16,677 basehttp 7700 6166360064 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 21:45:16,692 basehttp 7700 6166360064 "GET /products/ HTTP/1.1" 200 433
+WARNING 2024-02-15 21:45:34,403 log 7700 6166360064 Not Found: /orders/
+WARNING 2024-02-15 21:45:34,404 basehttp 7700 6166360064 "GET /orders/ HTTP/1.1" 404 2617
+INFO 2024-02-15 21:45:39,619 basehttp 7700 6166360064 "GET /orders HTTP/1.1" 200 978
+INFO 2024-02-15 21:46:06,137 basehttp 7700 6183186432 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:46:18,871 basehttp 7700 6183186432 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 21:46:18,884 basehttp 7700 6183186432 "GET /products/ HTTP/1.1" 200 429
+INFO 2024-02-15 21:46:31,735 autoreload 7700 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:46:32,014 autoreload 7815 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:46:35,547 basehttp 7815 6169112576 "GET /products/ HTTP/1.1" 200 429
+INFO 2024-02-15 21:46:38,432 basehttp 7815 6169112576 "GET /products/ HTTP/1.1" 200 429
+WARNING 2024-02-15 21:47:12,301 log 7815 6169112576 Not Found: /products/7
+WARNING 2024-02-15 21:47:12,302 basehttp 7815 6169112576 "GET /products/7 HTTP/1.1" 404 2626
+WARNING 2024-02-15 21:47:20,431 log 7815 6169112576 Not Found: /products7
+WARNING 2024-02-15 21:47:20,432 basehttp 7815 6169112576 "GET /products7 HTTP/1.1" 404 2623
+INFO 2024-02-15 21:47:34,960 basehttp 7815 6169112576 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 21:47:34,988 basehttp 7815 6169112576 "GET /products/ HTTP/1.1" 200 429
+INFO 2024-02-15 21:47:51,367 autoreload 7907 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:47:53,505 basehttp 7907 6197833728 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:48:01,785 basehttp 7907 6197833728 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 21:48:01,797 basehttp 7907 6197833728 "GET /products/ HTTP/1.1" 200 429
+INFO 2024-02-15 21:51:01,146 autoreload 7907 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 21:51:01,455 autoreload 8104 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:52:55,091 autoreload 8241 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:52:57,213 basehttp 8241 6164262912 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:53:06,349 basehttp 8241 6164262912 "GET /orders HTTP/1.1" 200 978
+INFO 2024-02-15 21:53:14,203 basehttp 8241 6164262912 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 21:53:14,221 basehttp 8241 6164262912 "GET /products/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:16,953 basehttp 8241 6164262912 "GET /products/7/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:18,171 basehttp 8241 6164262912 "GET /products/30/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:19,994 basehttp 8241 6164262912 "GET /products/365/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:22,159 basehttp 8241 6164262912 "GET /products/365/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:25,527 basehttp 8241 6164262912 "GET /products/30/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:27,123 basehttp 8241 6164262912 "GET /products/7/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:53:37,117 basehttp 8241 6164262912 "GET /products/7 HTTP/1.1" 301 0
+INFO 2024-02-15 21:53:37,129 basehttp 8241 6164262912 "GET /products/7/ HTTP/1.1" 200 743
+INFO 2024-02-15 21:57:55,094 autoreload 8241 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:57:55,404 autoreload 8619 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:58:04,043 basehttp 8619 6132035584 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 21:58:12,890 basehttp 8619 6132035584 "GET /products/14 HTTP/1.1" 301 0
+INFO 2024-02-15 21:58:12,906 basehttp 8619 6132035584 "GET /products/14/ HTTP/1.1" 200 708
+INFO 2024-02-15 21:58:20,931 basehttp 8619 6132035584 "GET /products/7 HTTP/1.1" 301 0
+INFO 2024-02-15 21:58:20,944 basehttp 8619 6132035584 "GET /products/7/ HTTP/1.1" 200 708
+INFO 2024-02-15 21:58:53,664 autoreload 8619 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 21:58:54,089 autoreload 8724 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 21:58:56,855 basehttp 8724 6204289024 "GET /products/20 HTTP/1.1" 301 0
+INFO 2024-02-15 21:58:56,882 basehttp 8724 6204289024 "GET /products/20/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:02:43,409 autoreload 8978 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:02:45,682 basehttp 8978 6169243648 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:02:53,922 basehttp 8978 6169243648 "GET /orders HTTP/1.1" 200 858
+INFO 2024-02-15 22:03:03,045 basehttp 8978 6169243648 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 22:03:03,057 basehttp 8978 6169243648 "GET /products/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:09,277 basehttp 8978 6169243648 "GET /products/7 HTTP/1.1" 301 0
+INFO 2024-02-15 22:03:09,290 basehttp 8978 6169243648 "GET /products/7/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:14,465 basehttp 8978 6169243648 "GET /products/14 HTTP/1.1" 301 0
+INFO 2024-02-15 22:03:14,481 basehttp 8978 6169243648 "GET /products/14/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:18,818 basehttp 8978 6169243648 "GET /products/20 HTTP/1.1" 301 0
+INFO 2024-02-15 22:03:18,829 basehttp 8978 6169243648 "GET /products/20/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:23,328 basehttp 8978 6169243648 "GET /products/365/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:24,580 basehttp 8978 6169243648 "GET /products/30/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:25,861 basehttp 8978 6169243648 "GET /products/7/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:28,075 basehttp 8978 6169243648 "GET /products/30/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:03:30,332 basehttp 8978 6169243648 "GET /products/365/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:04:33,351 basehttp 8978 6169243648 "GET /products/7/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:04:34,345 basehttp 8978 6169243648 "GET /products/30/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:04:39,063 basehttp 8978 6169243648 "GET /products/365/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:05:38,999 autoreload 8978 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 22:05:39,261 autoreload 9185 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:05:42,294 basehttp 9185 6124302336 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:05:52,886 basehttp 9185 6124302336 "GET /products/200 HTTP/1.1" 301 0
+INFO 2024-02-15 22:05:52,903 basehttp 9185 6124302336 "GET /products/200/ HTTP/1.1" 200 572
+INFO 2024-02-15 22:07:59,061 autoreload 9185 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 22:07:59,379 autoreload 9338 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:09:40,212 autoreload 9449 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:09:41,653 basehttp 9449 6170537984 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:09:50,798 basehttp 9449 6170537984 "GET /products/7 HTTP/1.1" 301 0
+INFO 2024-02-15 22:09:50,812 basehttp 9449 6170537984 "GET /products/7/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:09:55,699 basehttp 9449 6170537984 "GET /products/20 HTTP/1.1" 301 0
+INFO 2024-02-15 22:09:55,711 basehttp 9449 6170537984 "GET /products/20/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:02,304 basehttp 9449 6170537984 "GET /products/100 HTTP/1.1" 301 0
+INFO 2024-02-15 22:10:02,313 basehttp 9449 6170537984 "GET /products/100/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:06,405 basehttp 9449 6170537984 "GET /products/100000 HTTP/1.1" 301 0
+INFO 2024-02-15 22:10:06,418 basehttp 9449 6170537984 "GET /products/100000/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:16,124 basehttp 9449 6170537984 "GET /products/1/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:18,854 basehttp 9449 6170537984 "GET /products/30/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:19,887 basehttp 9449 6170537984 "GET /products/365/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:20,879 basehttp 9449 6170537984 "GET /products/7/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:24,860 basehttp 9449 6170537984 "GET /products/14 HTTP/1.1" 301 0
+INFO 2024-02-15 22:10:24,878 basehttp 9449 6170537984 "GET /products/14/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:27,816 basehttp 9449 6170537984 "GET /products/14/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:30,655 basehttp 9449 6170537984 "GET /products/30/ HTTP/1.1" 200 573
+INFO 2024-02-15 22:10:48,969 autoreload 9528 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:10:51,008 basehttp 9528 6121828352 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:10:56,483 basehttp 9528 6121828352 "GET /orders HTTP/1.1" 200 858
+INFO 2024-02-15 22:22:23,579 autoreload 10297 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:22:25,357 basehttp 10297 6192361472 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:22:40,300 basehttp 10297 6192361472 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 22:22:40,319 basehttp 10297 6192361472 "GET /products/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:22:42,830 basehttp 10297 6192361472 "GET /products/7/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:22:43,573 basehttp 10297 6192361472 "GET /products/30/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:22:44,557 basehttp 10297 6192361472 "GET /products/365/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:22:54,740 basehttp 10297 6192361472 "GET /products/2 HTTP/1.1" 301 0
+INFO 2024-02-15 22:22:54,756 basehttp 10297 6192361472 "GET /products/2/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:52:47,637 basehttp 10297 6192361472 "GET /products/365/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:53:34,868 basehttp 10297 6192361472 "GET /products/30/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:53:35,929 basehttp 10297 6192361472 "GET /products/7/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:53:37,062 basehttp 10297 6192361472 "GET /products/7/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:53:38,298 basehttp 10297 6192361472 "GET /products/30/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:53:49,981 autoreload 10859 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 22:53:52,593 basehttp 10859 6128283648 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 22:54:03,558 basehttp 10859 6128283648 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 22:54:03,576 basehttp 10859 6128283648 "GET /products/ HTTP/1.1" 200 708
+INFO 2024-02-15 22:54:10,122 basehttp 10859 6128283648 "GET /products/10/ HTTP/1.1" 200 708
+INFO 2024-02-15 23:03:43,838 basehttp 10859 6128283648 "GET /products?days=4 HTTP/1.1" 301 0
+INFO 2024-02-15 23:03:43,867 basehttp 10859 6128283648 "GET /products/?days=4 HTTP/1.1" 200 709
+WARNING 2024-02-15 23:03:43,935 log 10859 6145110016 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2024-02-15 23:03:43,935 basehttp 10859 6145110016 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2897
+WARNING 2024-02-15 23:03:43,939 log 10859 6145110016 Not Found: /apple-touch-icon.png
+WARNING 2024-02-15 23:03:43,939 basehttp 10859 6145110016 "GET /apple-touch-icon.png HTTP/1.1" 404 2861
+INFO 2024-02-15 23:03:52,945 basehttp 10859 6128283648 "GET /products/?days=17 HTTP/1.1" 200 710
+INFO 2024-02-15 23:04:17,634 basehttp 10859 6128283648 "GET /products/?days=17 HTTP/1.1" 200 708
+INFO 2024-02-15 23:04:24,666 basehttp 10859 6128283648 "GET /products/?days=17 HTTP/1.1" 200 708
+INFO 2024-02-15 23:04:28,397 basehttp 10859 6128283648 "GET /products/30/ HTTP/1.1" 200 708
+INFO 2024-02-15 23:04:43,483 basehttp 10859 6128283648 "GET /products/30/ HTTP/1.1" 200 708
+INFO 2024-02-15 23:05:17,512 basehttp 10859 6128283648 "GET /products/?days=100 HTTP/1.1" 200 711
+INFO 2024-02-15 23:07:19,630 autoreload 11740 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:07:25,337 basehttp 11740 6156546048 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:07:38,260 basehttp 11740 6156546048 "GET /products/?days=10 HTTP/1.1" 200 739
+INFO 2024-02-15 23:07:43,085 basehttp 11740 6156546048 "GET /products/?days=7 HTTP/1.1" 200 738
+INFO 2024-02-15 23:08:08,220 basehttp 11740 6156546048 "GET /products/?days=10 HTTP/1.1" 200 739
+INFO 2024-02-15 23:08:13,366 basehttp 11740 6156546048 "GET /products/?days=12 HTTP/1.1" 200 739
+INFO 2024-02-15 23:08:17,563 basehttp 11740 6156546048 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:08:23,350 autoreload 11810 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:08:27,066 basehttp 11810 6204452864 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:08:29,734 basehttp 11810 6204452864 "GET /products/365/ HTTP/1.1" 200 737
+INFO 2024-02-15 23:08:31,067 basehttp 11810 6204452864 "GET /products/30/ HTTP/1.1" 200 737
+INFO 2024-02-15 23:09:26,919 autoreload 11883 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:09:30,505 basehttp 11883 6192476160 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:10:00,142 basehttp 11883 6192476160 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:10:03,774 basehttp 11883 6192476160 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:10:17,290 autoreload 11940 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:10:40,714 basehttp 11940 6134083584 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:11:12,485 autoreload 11940 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 23:11:12,760 autoreload 12009 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:11:18,936 autoreload 12009 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 23:11:19,350 autoreload 12020 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:11:23,152 basehttp 12020 6125449216 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:12:16,493 autoreload 12020 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 23:12:16,769 autoreload 12092 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:12:22,079 basehttp 12092 6158626816 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:13:20,004 autoreload 12092 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 23:13:20,582 autoreload 12169 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:13:24,425 basehttp 12169 6202093568 "GET /products/?days=100 HTTP/1.1" 200 740
+INFO 2024-02-15 23:14:44,333 autoreload 12169 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/views.py changed, reloading.
+INFO 2024-02-15 23:14:44,730 autoreload 12283 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:24:08,152 basehttp 12283 6128922624 "GET /products/?days=100 HTTP/1.1" 200 755
+INFO 2024-02-15 23:24:10,039 basehttp 12283 6128922624 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:24:14,761 basehttp 12283 6128922624 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:24:16,425 basehttp 12283 6128922624 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:24:17,560 basehttp 12283 6128922624 "GET /products/?days=7 HTTP/1.1" 200 753
+INFO 2024-02-15 23:24:20,795 basehttp 12283 6128922624 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:24:22,630 basehttp 12283 6128922624 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:24:24,071 basehttp 12283 6128922624 "GET /products/?days=7 HTTP/1.1" 200 753
+INFO 2024-02-15 23:26:27,970 autoreload 13037 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:26:30,968 basehttp 13037 6163935232 "GET /products/?days=7 HTTP/1.1" 200 836
+INFO 2024-02-15 23:26:32,799 basehttp 13037 6163935232 "GET /products/?days=365 HTTP/1.1" 200 838
+INFO 2024-02-15 23:26:33,928 basehttp 13037 6163935232 "GET /products/?days=30 HTTP/1.1" 200 837
+INFO 2024-02-15 23:26:34,992 basehttp 13037 6163935232 "GET /products/?days=7 HTTP/1.1" 200 836
+INFO 2024-02-15 23:26:37,153 basehttp 13037 6163935232 "GET /products/?days=30 HTTP/1.1" 200 837
+INFO 2024-02-15 23:26:42,312 basehttp 13037 6163935232 "GET /products/?days=365 HTTP/1.1" 200 838
+INFO 2024-02-15 23:26:43,714 basehttp 13037 6163935232 "GET /products/?days=30 HTTP/1.1" 200 837
+INFO 2024-02-15 23:26:44,386 basehttp 13037 6163935232 "GET /products/?days=7 HTTP/1.1" 200 836
+INFO 2024-02-15 23:27:51,921 autoreload 13134 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:27:55,945 basehttp 13134 6160101376 "GET /products/?days=7 HTTP/1.1" 200 753
+INFO 2024-02-15 23:28:00,046 basehttp 13134 6160101376 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:28:01,556 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:02,574 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:03,243 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:05,884 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:08,846 basehttp 13134 6160101376 "GET /products/?days=7 HTTP/1.1" 200 753
+INFO 2024-02-15 23:28:09,941 basehttp 13134 6160101376 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:28:10,800 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:17,068 basehttp 13134 6160101376 "GET /products/?days=365 HTTP/1.1" 200 755
+INFO 2024-02-15 23:28:18,257 basehttp 13134 6160101376 "GET /products/?days=30 HTTP/1.1" 200 754
+INFO 2024-02-15 23:28:24,878 basehttp 13134 6160101376 "GET /orders HTTP/1.1" 200 969
+INFO 2024-02-15 23:31:23,084 autoreload 13134 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/models.py changed, reloading.
+INFO 2024-02-15 23:31:23,368 autoreload 13358 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:32:38,810 basehttp 13358 6164000768 "GET /orders HTTP/1.1" 200 969
+INFO 2024-02-15 23:43:51,138 autoreload 14251 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:43:55,617 basehttp 14251 6170767360 "GET /orders HTTP/1.1" 200 906
+INFO 2024-02-15 23:44:11,944 basehttp 14251 6170767360 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 23:44:11,964 basehttp 14251 6170767360 "GET /products/ HTTP/1.1" 200 587
+INFO 2024-02-15 23:44:14,318 basehttp 14251 6170767360 "GET /products/?days=30 HTTP/1.1" 200 589
+INFO 2024-02-15 23:44:15,588 basehttp 14251 6170767360 "GET /products/?days=365 HTTP/1.1" 200 802
+INFO 2024-02-15 23:44:19,489 basehttp 14251 6170767360 "GET /products/?days=30 HTTP/1.1" 200 589
+INFO 2024-02-15 23:44:21,263 basehttp 14251 6170767360 "GET /products/?days=7 HTTP/1.1" 200 588
+INFO 2024-02-15 23:44:22,353 basehttp 14251 6170767360 "GET /products/?days=30 HTTP/1.1" 200 589
+INFO 2024-02-15 23:44:23,554 basehttp 14251 6170767360 "GET /products/?days=365 HTTP/1.1" 200 802
+INFO 2024-02-15 23:51:35,537 autoreload 14887 8627559936 Watching for file changes with StatReloader
+INFO 2024-02-15 23:51:37,475 basehttp 14887 6125334528 "GET / HTTP/1.1" 200 296
+INFO 2024-02-15 23:51:47,611 basehttp 14887 6125334528 "GET /products HTTP/1.1" 301 0
+INFO 2024-02-15 23:51:47,625 basehttp 14887 6125334528 "GET /products/ HTTP/1.1" 200 587
+INFO 2024-02-15 23:51:49,534 basehttp 14887 6125334528 "GET /products/?days=365 HTTP/1.1" 200 802
+INFO 2024-02-15 23:51:50,883 basehttp 14887 6125334528 "GET /products/?days=30 HTTP/1.1" 200 589
+INFO 2024-02-15 23:51:51,868 basehttp 14887 6125334528 "GET /products/?days=7 HTTP/1.1" 200 588
+INFO 2024-02-15 23:51:52,585 basehttp 14887 6125334528 "GET /products/?days=30 HTTP/1.1" 200 589
+INFO 2024-02-15 23:51:53,524 basehttp 14887 6125334528 "GET /products/?days=365 HTTP/1.1" 200 802
+INFO 2024-02-15 23:52:05,447 autoreload 14887 8627559936 /Users/mikhailadler/PycharmProjects/Django/myproject/myapp3/urls.py changed, reloading.
+INFO 2024-02-15 23:52:05,795 autoreload 14925 8627559936 Watching for file changes with StatReloader

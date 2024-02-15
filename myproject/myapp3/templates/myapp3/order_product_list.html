@@ -1,0 +1,16 @@
+<!-- templates/order_product_list.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <a href="{% url 'order_product_list' %}?days=7">Товары за последние 7 дней</a>
+  <a href="{% url 'order_product_list' %}?days=30">Товары за последние 30 дней</a>
+  <a href="{% url 'order_product_list' %}?days=365">Товары за последние 365 дней</a>
+
+  <h2>Список товаров из заказов за последние {{ request.GET.days }} дней</h2>
+  <ul>
+    {% for product in products %}
+      <li>{{ product.name }} | {{ product.price }} | {{ product.date_created }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+

@@ -1,0 +1,21 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h2>Список всех товаров из заказов</h2>
+  <h3>Заказы</h3>
+  <ul>
+    {% for order in orders %}
+      <li>{{ order.user.id }} - {{ order.user.name }} - Order #{{ forloop.counter }} - {{ order.order_date }} - Total Amount: {{ order.total_price }}</li>
+          <h5>Товары в заказе</h5>
+          {% for product in order.products.all %}
+            <ul>
+              <li>{{ product.id }} - {{ product.name }} - {{ product.description }} - {{ product.price }}</li>
+            </ul>
+          {% endfor %}
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+

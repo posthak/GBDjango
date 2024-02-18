@@ -15,8 +15,12 @@ class Command(BaseCommand):
         #                       quantity=i+1)
         #     product.save()
 
-        pk = kwargs['pk']
-        user = User.objects.filter(pk=pk).first()
-        order = Order(total_price=10.2, customer=user)
-        order.save()
-        self.stdout.write(f'{user}')
+        pk1 = kwargs['pk']
+        selected_products = Product.objects.all()
+        total_amount = sum(Product.objects.get(pk=product.pk).price for product in selected_products)
+        print(str(total_amount))
+        user = User.objects.filter(pk=pk1).first()
+        order = Order(total_price=total_amount, customer=user)
+        order.products.set(selected_products)
+        # order.save()
+        # self.stdout.write(f'{user}')

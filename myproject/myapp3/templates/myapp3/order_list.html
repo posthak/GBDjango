@@ -1,18 +1,56 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <h2>Список заказов клиента</h2>
-  <ul>
-    {% for order in orders %}
-      <li>
-        Заказ №{{ order.id }} от {{ order.order_date }}:
-        <ul>
-          {% for product in order.products.all %}
-            <li>{{ product.name }} - {{ product.price }}</li>
-          {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-  </ul>
+
+<div class="container">
+   <div class="border rounded p-4 m-4">
+        <p class="display-4 pl-4 ml-4">Список заказов клиента</p>
+        <hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Order no.</th>
+                    <th>Client</th>
+                    <th>Order created</th>
+                    <th>Product</th>
+                    <th>Product created</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <td>{{ order.user.name }}</td>
+                    <td>{{ order.order_date }}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>{{ order.total_price }}</td>
+                </tr>
+                    {% for product in order.products.all %}
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>{{ product.name }}</td>
+                            <td>{{ product.date_created }}</td>
+                            <td>{{ product.price }}</td>
+                            <td>{{ product.quantity }}</td>
+                            <td></td>
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+   </div>
+</div>
+
 {% endblock %}
 

@@ -25,8 +25,9 @@ class Product(models.Model):
                    f', quantity: {self.quantity}, date_created: {self.date_created}'
 
 class Order(models.Model):
-    customer = models.ForeignKey(User, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    # product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    products = models.ManyToManyField(Product)
     total_price = models.DecimalField(max_digits=8, decimal_places=2)
     order_date = models.DateField(default=datetime.datetime.today)
 

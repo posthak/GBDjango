@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.utils import timezone
 from django.views.generic import ListView
+from .forms import ProductForm
 from myapp3.models import Order, Product, User
 
 
@@ -22,11 +23,20 @@ class OrderProductListView(ListView):
         products = Product.objects.all()
         context = {'pk': pk, 'days': days, 'products': products, 'orders': orders}
         return render(request, self.template_name, context)
-class AllOrderProductListView(ListView):
-    template_name = "myapp3/all_order_product_list.html"
-    def get(self, request):
-        orders = Order.objects.all()
-        products = Product.objects.all()
-        context = {'products': products, 'orders': orders}
-        return render(request, self.template_name, context)
 
+class ViewProduct(ListView):
+    template_name = "myapp3/view_products.html"
+    model = Product
+    context_object_name = 'products'
+
+def add_product(request):
+    template_name = "myapp3/add_product.html"
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('view_products')
+    else:
+        form = ProductForm()
+
+    return render(request, template_name, {'form': form})

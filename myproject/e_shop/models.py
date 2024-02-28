@@ -2,6 +2,13 @@ import datetime
 
 from django.db import models
 
+
+class Category(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
+
 class User(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
@@ -15,6 +22,7 @@ class User(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=100)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
     description = models.TextField()
     photo = models.ImageField(upload_to='product/', blank=True, null=True)
     price = models.DecimalField(max_digits=8, decimal_places=2)
@@ -33,5 +41,5 @@ class Order(models.Model):
     order_date = models.DateField(default=datetime.datetime.today)
 
     def __str__(self):
-        return f'total_price: {self.total_price}, date_ordered: {self.date_ordered}'
+        return f'total_price: {self.total_price}, order_date: {self.order_date}'
 

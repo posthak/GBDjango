@@ -15687,3 +15687,141 @@ WARNING 2024-02-28 12:18:23,390 log 4533 6137524224 Not Found: /product/product/
 WARNING 2024-02-28 12:18:23,390 basehttp 4533 6154350592 "GET /product/product/twobed_X1wRqJD.jpeg HTTP/1.1" 404 4013
 WARNING 2024-02-28 12:18:23,391 basehttp 4533 6137524224 "GET /product/product/iPhone_4r0IHM1.jpeg HTTP/1.1" 404 4013
 INFO 2024-02-28 12:18:23,395 basehttp 4533 6137524224 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:23:08,985 autoreload 4639 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:23:10,107 basehttp 4639 6124351488 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:23:18,450 basehttp 4639 6124351488 "GET /products/ HTTP/1.1" 200 20678
+WARNING 2024-02-28 12:23:18,466 log 4639 6124351488 Not Found: /product/product/twobed_X1wRqJD.jpeg
+WARNING 2024-02-28 12:23:18,467 basehttp 4639 6124351488 "GET /product/product/twobed_X1wRqJD.jpeg HTTP/1.1" 404 4013
+INFO 2024-02-28 12:23:18,472 basehttp 4639 6124351488 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+WARNING 2024-02-28 12:23:18,475 log 4639 6141177856 Not Found: /product/product/iPhone_4r0IHM1.jpeg
+WARNING 2024-02-28 12:23:18,475 basehttp 4639 6141177856 "GET /product/product/iPhone_4r0IHM1.jpeg HTTP/1.1" 404 4013
+INFO 2024-02-28 12:23:25,465 basehttp 4639 6124351488 "GET /product/add HTTP/1.1" 200 6206
+INFO 2024-02-28 12:23:29,361 basehttp 4639 6124351488 "GET /product/add HTTP/1.1" 200 6206
+INFO 2024-02-28 12:23:31,019 basehttp 4639 6124351488 "GET /product/update HTTP/1.1" 200 6206
+INFO 2024-02-28 12:23:33,957 basehttp 4639 6124351488 "GET /product/update/22 HTTP/1.1" 200 6293
+INFO 2024-02-28 12:23:34,366 basehttp 4639 6124351488 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:23:34,863 basehttp 4639 6124351488 "GET /product/update/30 HTTP/1.1" 200 6288
+INFO 2024-02-28 12:23:42,430 basehttp 4639 6124351488 "GET /product/update/30 HTTP/1.1" 200 6288
+INFO 2024-02-28 12:23:42,755 basehttp 4639 6124351488 "GET /product/update/31 HTTP/1.1" 200 6511
+INFO 2024-02-28 12:23:46,625 basehttp 4639 6124351488 "POST /product/update/31 HTTP/1.1" 302 0
+INFO 2024-02-28 12:23:46,641 basehttp 4639 6124351488 "GET /products/ HTTP/1.1" 200 20487
+WARNING 2024-02-28 12:23:46,661 log 4639 6124351488 Not Found: /product/product/twobed_X1wRqJD.jpeg
+WARNING 2024-02-28 12:23:46,661 basehttp 4639 6124351488 "GET /product/product/twobed_X1wRqJD.jpeg HTTP/1.1" 404 4013
+INFO 2024-02-28 12:23:56,015 basehttp 4639 6124351488 "GET /product/update HTTP/1.1" 200 6206
+INFO 2024-02-28 12:23:58,327 basehttp 4639 6124351488 "GET /product/update/30 HTTP/1.1" 200 6288
+INFO 2024-02-28 12:23:59,116 basehttp 4639 6124351488 "GET /product/update/32 HTTP/1.1" 200 6547
+INFO 2024-02-28 12:24:17,154 basehttp 4639 6124351488 "POST /product/update/32 HTTP/1.1" 200 6810
+INFO 2024-02-28 12:24:21,048 basehttp 4639 6124351488 "POST /product/update/32 HTTP/1.1" 302 0
+INFO 2024-02-28 12:24:21,068 basehttp 4639 6124351488 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:24:21,085 basehttp 4639 6124351488 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:24:28,700 basehttp 4639 6124351488 "GET /products/ HTTP/1.1" 200 20288
+WARNING 2024-02-28 12:24:28,713 log 4639 6141177856 Not Found: /product/product/twobed_X1wRqJD.jpeg
+WARNING 2024-02-28 12:24:28,714 basehttp 4639 6141177856 "GET /product/product/twobed_X1wRqJD.jpeg HTTP/1.1" 404 4013
+WARNING 2024-02-28 12:24:28,715 log 4639 6124351488 Not Found: /product/product/iPhone_4r0IHM1.jpeg
+WARNING 2024-02-28 12:24:28,716 basehttp 4639 6124351488 "GET /product/product/iPhone_4r0IHM1.jpeg HTTP/1.1" 404 4013
+INFO 2024-02-28 12:26:56,445 autoreload 4747 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:26:57,547 basehttp 4747 6128365568 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:26:59,009 basehttp 4747 6128365568 "GET /products/ HTTP/1.1" 200 20288
+WARNING 2024-02-28 12:26:59,031 log 4747 6145191936 Not Found: /product/product/twobed_X1wRqJD.jpeg
+WARNING 2024-02-28 12:26:59,031 log 4747 6128365568 Not Found: /product/product/iPhone_4r0IHM1.jpeg
+WARNING 2024-02-28 12:26:59,032 basehttp 4747 6145191936 "GET /product/product/twobed_X1wRqJD.jpeg HTTP/1.1" 404 4013
+WARNING 2024-02-28 12:26:59,033 basehttp 4747 6128365568 "GET /product/product/iPhone_4r0IHM1.jpeg HTTP/1.1" 404 4013
+INFO 2024-02-28 12:26:59,041 basehttp 4747 6128365568 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:26:59,574 basehttp 4747 6128365568 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:27:26,257 autoreload 4764 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:27:29,480 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:27:45,754 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:27:45,772 basehttp 4764 6199783424 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:27:47,368 basehttp 4764 6199783424 "GET /users/ HTTP/1.1" 200 10984
+INFO 2024-02-28 12:27:48,039 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:28:26,911 basehttp 4764 6199783424 "GET /product/product/Cheese.png HTTP/1.1" 200 1489757
+WARNING 2024-02-28 12:28:39,164 log 4764 6199783424 Not Found: /product/product/krossovki-nike_wcB1mKs.jpeg
+WARNING 2024-02-28 12:28:39,165 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_wcB1mKs.jpeg HTTP/1.1" 404 4045
+INFO 2024-02-28 12:28:52,447 basehttp 4764 6199783424 "GET /product/product/krossovki-nike.jpeg HTTP/1.1" 200 48404
+INFO 2024-02-28 12:29:01,252 basehttp 4764 6199783424 "GET /product/update HTTP/1.1" 200 6206
+INFO 2024-02-28 12:29:04,664 basehttp 4764 6199783424 "GET /product/update/30 HTTP/1.1" 200 6288
+INFO 2024-02-28 12:29:05,283 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:29:09,535 basehttp 4764 6199783424 "POST /product/update/33 HTTP/1.1" 302 0
+INFO 2024-02-28 12:29:09,553 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20072
+INFO 2024-02-28 12:29:20,666 basehttp 4764 6199783424 "GET /product/update HTTP/1.1" 200 6206
+INFO 2024-02-28 12:29:23,033 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6313
+INFO 2024-02-28 12:29:31,274 basehttp 4764 6199783424 "POST /product/update/33 HTTP/1.1" 302 0
+INFO 2024-02-28 12:29:31,282 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:29:31,296 basehttp 4764 6216609792 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:29:31,297 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_nXkz8Bs.jpeg HTTP/1.1" 200 48404
+INFO 2024-02-28 12:29:39,324 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_nXkz8Bs.jpeg HTTP/1.1" 200 48404
+INFO 2024-02-28 12:30:00,362 basehttp 4764 6199783424 "GET /product/product/fish.jpeg HTTP/1.1" 200 31182
+INFO 2024-02-28 12:30:12,823 basehttp 4764 6199783424 "GET /product/update HTTP/1.1" 200 6206
+INFO 2024-02-28 12:30:15,257 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+WARNING 2024-02-28 12:30:16,220 log 4764 6199783424 Not Found: /product/update/4
+WARNING 2024-02-28 12:30:16,221 basehttp 4764 6199783424 "GET /product/update/4 HTTP/1.1" 404 3757
+INFO 2024-02-28 12:30:19,719 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:27,333 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:27,552 basehttp 4764 6199783424 "GET /product/update/3 HTTP/1.1" 200 6519
+INFO 2024-02-28 12:30:30,571 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+WARNING 2024-02-28 12:30:31,074 log 4764 6199783424 Not Found: /product/update/4
+WARNING 2024-02-28 12:30:31,074 basehttp 4764 6199783424 "GET /product/update/4 HTTP/1.1" 404 3757
+INFO 2024-02-28 12:30:35,621 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:36,583 basehttp 4764 6199783424 "GET /product/update/5 HTTP/1.1" 200 6286
+INFO 2024-02-28 12:30:40,712 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:41,141 basehttp 4764 6199783424 "GET /product/update/6 HTTP/1.1" 200 6273
+INFO 2024-02-28 12:30:44,499 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:44,879 basehttp 4764 6199783424 "GET /product/update/7 HTTP/1.1" 200 6306
+INFO 2024-02-28 12:30:47,005 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+WARNING 2024-02-28 12:30:47,013 log 4764 6199783424 Not Found: /product/product/krossovki-nike_wcB1mKs.jpeg
+WARNING 2024-02-28 12:30:47,013 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_wcB1mKs.jpeg HTTP/1.1" 404 4045
+INFO 2024-02-28 12:30:47,019 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_nXkz8Bs.jpeg HTTP/1.1" 304 0
+INFO 2024-02-28 12:30:56,247 basehttp 4764 6199783424 "GET /product/update/33 HTTP/1.1" 200 6578
+INFO 2024-02-28 12:30:56,626 basehttp 4764 6199783424 "GET /product/update/3 HTTP/1.1" 200 6519
+INFO 2024-02-28 12:31:02,228 basehttp 4764 6199783424 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:31:02,244 basehttp 4764 6199783424 "GET /product/product/krossovki-nike_nXkz8Bs.jpeg HTTP/1.1" 304 0
+INFO 2024-02-28 12:31:12,014 basehttp 4764 6199783424 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:47:10,211 autoreload 5009 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:47:15,556 basehttp 5009 6128742400 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:47:15,561 basehttp 5009 6128742400 "GET /product/product/krossovki-nike_nXkz8Bs.jpeg HTTP/1.1" 304 0
+INFO 2024-02-28 12:47:15,562 basehttp 5009 6145568768 "GET /product/product/Cheese.png HTTP/1.1" 304 0
+INFO 2024-02-28 12:47:15,562 basehttp 5009 6162395136 "GET /product/product/fish.jpeg HTTP/1.1" 304 0
+INFO 2024-02-28 12:48:29,023 autoreload 5009 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:48:29,298 autoreload 5024 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:48:31,570 basehttp 5024 6163066880 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:48:41,815 basehttp 5024 6163066880 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:48:43,732 basehttp 5024 6163066880 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:48:46,628 basehttp 5024 6163066880 "GET / HTTP/1.1" 200 4667
+INFO 2024-02-28 12:48:47,507 basehttp 5024 6163066880 "GET /products/ HTTP/1.1" 200 20288
+INFO 2024-02-28 12:49:17,524 autoreload 5024 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:49:17,776 autoreload 5040 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:49:28,078 autoreload 5040 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:49:28,322 autoreload 5049 8031051264 Watching for file changes with StatReloader
+ERROR 2024-02-28 12:49:32,612 log 5049 6122795008 Internal Server Error: /products/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/messages/middleware.py", line 12, in process_request
+    request._messages = default_storage(request)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/messages/storage/__init__.py", line 12, in default_storage
+    return import_string(settings.MESSAGE_STORAGE)(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/messages/storage/fallback.py", line 17, in __init__
+    storage_class(*args, **kwargs) for storage_class in self.storage_classes
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/messages/storage/cookie.py", line 92, in __init__
+    self.signer = signing.get_cookie_signer(salt=self.key_salt)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/core/signing.py", line 114, in get_cookie_signer
+    key=_cookie_signer_key(settings.SECRET_KEY),
+                           ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/conf/__init__.py", line 98, in __getattr__
+    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.
+ERROR 2024-02-28 12:49:32,619 basehttp 5049 6122795008 "GET /products/ HTTP/1.1" 500 145
+INFO 2024-02-28 12:55:58,111 autoreload 5049 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:55:58,372 autoreload 5095 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:56:23,891 autoreload 5095 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:56:24,099 autoreload 5105 8031051264 Watching for file changes with StatReloader
+INFO 2024-02-28 12:57:27,153 autoreload 5105 8031051264 /Users/mikhailadler/PycharmProjects/Django/myproject/myproject/settings.py changed, reloading.
+INFO 2024-02-28 12:57:27,376 autoreload 5140 8031051264 Watching for file changes with StatReloader

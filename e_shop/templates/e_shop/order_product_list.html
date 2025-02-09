@@ -2,17 +2,17 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  <a href="{% url 'user_products' pk=pk days=7 %}">Товары за последние 7 дней</a>
-  <a href="{% url 'user_products' pk=pk days=30 %}">Товары за последние 30 дней</a>
-  <a href="{% url 'user_products' pk=pk days=365 %}">Товары за последние 365 дней</a>
+  <a href="{% url 'user_products' pk=pk days=7 %}">Products for the last 7 days</a>
+  <a href="{% url 'user_products' pk=pk days=30 %}">Products for the last 30 days</a>
+  <a href="{% url 'user_products' pk=pk days=365 %}">Products for the last 365 days</a>
 
 
-  <h2>Список товаров из заказов за последние {{ days }} дней</h2>
+  <h2>List if products for the last {{ days }} days</h2>
   <h3>Заказы</h3>
   <ul>
     {% for order in orders %}
       <li>{{ order.user.name }} - Order #{{ order.pk }} - {{ order.order_date }} - Total Amount: {{ order.total_price }}</li>
-          <h5>Товары в заказе</h5>
+          <h5>Ordered products</h5>
           {% for product in order.products.all %}
             <ul>
               <li>{{ product.name }} - {{ product.description }} - {{ product.price }}</li>
